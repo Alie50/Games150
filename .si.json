@@ -1,0 +1,10 @@
+{
+  "plugin": "org.smartide.plugin.kotlin",
+  "run": "kotlinc Main.kt -d . && kotlin MainKt",
+  "intelligence": {
+    ".json": {
+      "enabled": true,
+      "run": "vscode-json-language-server --stdio"
+    }
+  }
+}
